@@ -49,6 +49,12 @@ See [ch1/README.md](ch1/README.md) for detailed information about Chapter 1 algo
 **Algorithms implemented:**
 - Binary Search (`ch1/binary-search.js`)
 
+### Chapter 2: Selection Sort
+See [ch2/README.md](ch2/README.md) for detailed information about Chapter 2 algorithms and concepts.
+
+**Algorithms implemented:**
+- Selection Sort (`ch2/selection-sort.js`)
+
 ## 🛠️ Technology Stack
 
 - **Runtime**: Bun - Fast JavaScript runtime and package manager
