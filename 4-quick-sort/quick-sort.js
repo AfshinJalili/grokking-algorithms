@@ -3,11 +3,19 @@ function quickSort(arr) {
     return arr;
   }
 
-  const pivot = arr[0];
+  const pivotIndex = Math.floor(arr.length / 2);
+  const pivot = arr[pivotIndex];
   const less = [];
   const greater = [];
-  for (let i = 1; i < arr.length; i++) {
-    arr[i] > pivot ? greater.push(arr[i]) : less.push(arr[i]);
+  for (let i = 0; i < arr.length; i++) {
+    if (i === pivotIndex) {
+      continue;
+    }
+    if (arr[i] > pivot) {
+      greater.push(arr[i]);
+    } else {
+      less.push(arr[i]);
+    }
   }
   return [...quickSort(less), pivot, ...quickSort(greater)];
 }
