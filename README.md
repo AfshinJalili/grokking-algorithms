@@ -36,7 +36,7 @@ bun run index.ts
 #### Run specific algorithm examples:
 ```bash
 # Run binary search example
-bun run ch1/binary-search.js
+bun run 1-introduction-to-algorithms/binary-search.js
 ```
 
 **Note:** Each chapter has its own README with detailed information about the algorithms and concepts covered. See the chapter folders for more details.
@@ -44,16 +44,31 @@ bun run ch1/binary-search.js
 ## 📚 Chapters and Algorithms
 
 ### Chapter 1: Introduction to Algorithms
-See [ch1/README.md](ch1/README.md) for detailed information about Chapter 1 algorithms and concepts.
+See [1-introduction-to-algorithms/README.md](1-introduction-to-algorithms/README.md) for detailed information about Chapter 1 algorithms and concepts.
 
 **Algorithms implemented:**
-- Binary Search (`ch1/binary-search.js`)
+- Binary Search (`1-introduction-to-algorithms/binary-search.js`)
 
 ### Chapter 2: Selection Sort
-See [ch2/README.md](ch2/README.md) for detailed information about Chapter 2 algorithms and concepts.
+See [2-selection-sort/README.md](2-selection-sort/README.md) for detailed information about Chapter 2 algorithms and concepts.
 
 **Algorithms implemented:**
-- Selection Sort (`ch2/selection-sort.js`)
+- Selection Sort (`2-selection-sort/selection-sort.js`)
+
+### Chapter 3: Recursion
+See [3-recursion/](3-recursion/) for detailed information about Chapter 3 algorithms and concepts.
+
+**Algorithms implemented:**
+- Recursive Binary Search (`3-recursion/binary-search.js`)
+- Count Items (`3-recursion/count-items.js`)
+- Find Maximum (`3-recursion/find-max.js`)
+- Recursive Sum (`3-recursion/sum.js`)
+
+### Chapter 4: Quick Sort
+See [4-quick-sort/](4-quick-sort/) for detailed information about Chapter 4 algorithms and concepts.
+
+**Algorithms implemented:**
+- Quick Sort (`4-quick-sort/quick-sort.js`)
 
 ## 🛠️ Technology Stack
 

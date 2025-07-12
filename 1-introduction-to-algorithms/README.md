@@ -39,7 +39,7 @@ Binary search is an algorithm that runs in logarithmic time. It's much faster th
 
 ```bash
 # Run the binary search example
-bun run ch1/binary-search.js
+bun run 1-introduction-to-algorithms/binary-search.js
 ```
 
 ## 📖 Learning Notes

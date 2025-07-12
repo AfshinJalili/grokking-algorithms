@@ -54,7 +54,7 @@ Selection sort is a simple sorting algorithm that works by dividing the input in
 
 ```bash
 # Run the selection sort example
-bun run ch2/selection-sort.js
+bun run 2-selection-sort/selection-sort.js
 ```
 
 ## 📖 Learning Notes
