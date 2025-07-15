@@ -70,6 +70,12 @@ See [4-quick-sort/](4-quick-sort/) for detailed information about Chapter 4 algo
 **Algorithms implemented:**
 - Quick Sort (`4-quick-sort/quick-sort.js`)
 
+### Chapter 6: Breadth-First Search
+See [6-breadth-first-search/README.md](6-breadth-first-search/README.md) for detailed information about Chapter 6 algorithms and concepts.
+
+**Algorithms implemented:**
+- Breadth-First Search (`6-breadth-first-search/bfs.py`)
+
 ## 🛠️ Technology Stack
 
 - **Runtime**: Bun - Fast JavaScript runtime and package manager
