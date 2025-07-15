@@ -76,6 +76,14 @@ See [6-breadth-first-search/README.md](6-breadth-first-search/README.md) for det
 **Algorithms implemented:**
 - Breadth-First Search (`6-breadth-first-search/bfs.py`)
 
+### Chapter 7: Trees
+See [7-trees/README.md](7-trees/README.md) for detailed information about Chapter 7 algorithms and concepts.
+
+**Algorithms implemented:**
+- Breadth-First Search File System Traversal (`7-trees/bfs_file_system.py`)
+- Depth-First Search File System Traversal (`7-trees/dfs_file_system.py`)
+- BFS vs DFS Comparison (`7-trees/comparison_example.py`)
+
 ## 🛠️ Technology Stack
 
 - **Runtime**: Bun - Fast JavaScript runtime and package manager
