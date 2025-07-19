@@ -11,6 +11,7 @@ This repository contains my implementations of various algorithms and data struc
 ### Prerequisites
 
 - [Bun](https://bun.sh/) - Fast JavaScript runtime
+- Python 3.x (for Python implementations)
 - TypeScript (optional, for type checking)
 
 ### Installation
@@ -35,8 +36,11 @@ bun run index.ts
 
 #### Run specific algorithm examples:
 ```bash
-# Run binary search example
+# Run binary search example (JavaScript)
 bun run 1-introduction-to-algorithms/binary-search.js
+
+# Run Dijkstra's algorithm (Python)
+python 9-dijkstra-algorithm/dijkstra.py
 ```
 
 **Note:** Each chapter has its own README with detailed information about the algorithms and concepts covered. See the chapter folders for more details.
@@ -56,7 +60,7 @@ See [2-selection-sort/README.md](2-selection-sort/README.md) for detailed inform
 - Selection Sort (`2-selection-sort/selection-sort.js`)
 
 ### Chapter 3: Recursion
-See [3-recursion/](3-recursion/) for detailed information about Chapter 3 algorithms and concepts.
+See [3-recursion/README.md](3-recursion/README.md) for detailed information about Chapter 3 algorithms and concepts.
 
 **Algorithms implemented:**
 - Recursive Binary Search (`3-recursion/binary-search.js`)
@@ -65,7 +69,7 @@ See [3-recursion/](3-recursion/) for detailed information about Chapter 3 algori
 - Recursive Sum (`3-recursion/sum.js`)
 
 ### Chapter 4: Quick Sort
-See [4-quick-sort/](4-quick-sort/) for detailed information about Chapter 4 algorithms and concepts.
+See [4-quick-sort/README.md](4-quick-sort/README.md) for detailed information about Chapter 4 algorithms and concepts.
 
 **Algorithms implemented:**
 - Quick Sort (`4-quick-sort/quick-sort.js`)
@@ -84,11 +88,17 @@ See [7-trees/README.md](7-trees/README.md) for detailed information about Chapte
 - Depth-First Search File System Traversal (`7-trees/dfs_file_system.py`)
 - BFS vs DFS Comparison (`7-trees/comparison_example.py`)
 
+### Chapter 9: Dijkstra's Algorithm
+See [9-dijkstra-algorithm/README.md](9-dijkstra-algorithm/README.md) for detailed information about Chapter 9 algorithms and concepts.
+
+**Algorithms implemented:**
+- Dijkstra's Shortest Path Algorithm (`9-dijkstra-algorithm/dijkstra.py`)
+
 ## 🛠️ Technology Stack
 
 - **Runtime**: Bun - Fast JavaScript runtime and package manager
-- **Language**: JavaScript/TypeScript
-- **Module System**: ES Modules
+- **Languages**: JavaScript/TypeScript, Python
+- **Module System**: ES Modules (JavaScript), Standard Python modules
 - **Type Checking**: TypeScript (optional)
 
 ## 📖 Learning Path
@@ -115,7 +125,7 @@ Contributions are welcome! If you'd like to add more algorithms or improve exist
 
 - All algorithms are implemented as I learn them from the "Grokking Algorithms" (Second Edition) book
 - Each implementation includes practical examples and my understanding of the concepts
-- Code follows modern JavaScript/TypeScript best practices
+- Code follows modern JavaScript/TypeScript and Python best practices
 - Focus is on understanding rather than optimization (though efficient implementations are preferred)
 - This is a work in progress - new chapters and algorithms will be added as I continue reading
 
@@ -124,6 +134,7 @@ Contributions are welcome! If you'd like to add more algorithms or improve exist
 - [Grokking Algorithms Book](https://www.manning.com/books/grokking-algorithms) - The inspiration for this project
 - [Bun Documentation](https://bun.sh/docs) - JavaScript runtime used in this project
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/) - For type checking and modern JavaScript features
+- [Python Documentation](https://docs.python.org/) - For Python implementations
 
 ## 📄 License
 
