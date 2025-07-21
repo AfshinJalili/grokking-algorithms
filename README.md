@@ -94,6 +94,12 @@ See [9-dijkstra-algorithm/README.md](9-dijkstra-algorithm/README.md) for detaile
 **Algorithms implemented:**
 - Dijkstra's Shortest Path Algorithm (`9-dijkstra-algorithm/dijkstra.py`)
 
+### Chapter 10: Greedy Algorithms
+See [10-greedy-algorithms/README.md](10-greedy-algorithms/README.md) for detailed information about Chapter 10 algorithms and concepts.
+
+**Algorithms implemented:**
+- Set Covering Problem (`10-greedy-algorithms/set_covering.py`)
+
 ## 🛠️ Technology Stack
 
 - **Runtime**: Bun - Fast JavaScript runtime and package manager
